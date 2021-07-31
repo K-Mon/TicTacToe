@@ -5,9 +5,9 @@
 void printBoard (int board[]) {
     printf("\n---------\n");
     for (int i = 1; i <= 9; i++) {
-        if (board[i-1] == 1) {
+        if (board[i - 1] == 1) {
             printf("|X|");
-        } else if (board[i-1] == -1){
+        } else if (board[i - 1] == -1){
             printf("|O|");
         } else {
             printf("| |");
